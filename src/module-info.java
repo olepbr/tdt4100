@@ -9,5 +9,4 @@ open module ovinger {
 	requires javafx.graphics;
 	requires junit;
 	requires org.eclipse.xtext.xbase.lib;
-	requires no.hal.jex.jextest.lib;
 }
