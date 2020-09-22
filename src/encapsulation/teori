@@ -1,0 +1,12 @@
+1. En synlighetsmodifikator angir synligheten til en attributt i en klasse.
+2. Attributter merket private er kun tilgjengelige for den gitte klassen, 
+	mens de merket public kan refereres til av hvem som helst, 
+	også andre klasser. I utgangspunktet setter man gjerne alle attributter til private, 
+	for så å åpne opp etter behov. Gettere og til dels settere er som oftest også public,
+	for at andre klasser skal kunne benytte seg av/legge til informasjon i dem samtidig som
+	man kan kontrollere at dette skjer på rett vis. 
+
+# Person
+1. Foreslå alternativ innkapsling av navnet: man kan ta inn fornavn og etternavn separat og sjekke begge, 
+	for så å sette de sammen til en streng.
+2. Foreslå to alternative strategier for å kapsle inn tilstand som er koblet slik navn og e-post er: 

@@ -1,0 +1,23 @@
+# Oppgave 1
+	capacity = 57.0
+	currentVolume = 5.0 (vil drikke 40)
+	drinkCoffee utløser unntaket etter at canDrink returnerer false.
+	
+# Oppgave 2
+	1. 	cup = new CoffeeCup(40, 20.5);
+		capacity = 40.0, currenVolume = 20.5
+	2. 	cup.drinkCoffee(Math.floor(r.nextDouble()*20.5));
+		capacity = 40.0, currentVolume = 14.5
+	3.	cup.fillCoffee(Math.floor(r.nextDouble()*30));
+		capacity = 40.0, currentVolume = 38.5
+	4. 	cup.drinkCoffee(Math.ceil(r.nextDouble()*38.9));
+		capacity = 40.0, currentVolume = 36.5
+	5. 	cup.drinkCoffee(Math.ceil(r.nextDouble()*42));
+		capacity = 40.0, currentVolume = 6.5
+	6.	cup.increaseCupSize(Math.floor(r.nextDouble()*26));
+		capacity = 40.0, currentVolume = 6.5
+	7. 	cup.fillCoffee(Math.ceil(r.nextDouble()*59));
+		UNNTAK! fillCoffee utløser et unntak av IllegalArgumentException (ugyldig argument) 
+		etter at isValidVolume returnerer false. Virker ikke som increaseCupSize faktisk
+		øker kapasiteten.
+		
